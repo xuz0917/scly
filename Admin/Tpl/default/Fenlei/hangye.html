@@ -1,0 +1,90 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>行业分类</title>
+<link rel="stylesheet" href="__PUBLIC__/css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="__PUBLIC__/css/invalid.css" type="text/css" media="screen">
+<script type="text/javascript" src="__PUBLIC__/scripts/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/scripts/simpla.jquery.configuration.js"></script>
+<body onload="region_default();">
+<script type="text/javascript">
+  //设置默认,页面加载时恢复默认选项。
+function region_default() {
+    $("option[value='-1']").attr('selected','selected');
+  }
+  function setregion(num,address_id) {
+     var next=num+1;
+     $.ajax({
+        type:'POST',
+        //设置json格式,接收返回数组。
+        dataType:'json',
+        url:'__APP__/fenlei/get_region/',
+        //ajax传递当前选项的value值,也就是当前的region_id。
+        data:'region_id='+$('#region_'+num+'_'+address_id).val(),
+        success:function(msg) {
+        //如果返回值不为空则执行。
+if (msg!=null) {
+            var option_str='';
+            //循环书写下一个select中要添加的内容。并添加name标记。
+for (var i=0; i<msg.length; i++) {
+                 option_str+='<option name="region_'+next+'"value="'+msg[i].region_id+'">'+msg[i].region_name+'</option>';
+            }
+            //删除下一个select中标记name为next的内容。
+            $("option[name='region_"+next+"']").remove();
+            //向下一个select中添加书写好的内容。
+            $('#region_'+next+'_'+address_id).append(option_str);
+           }else{
+                //如果返回值为空,则移除所有带标记的option,恢复默认选项。
+for (var i=next; i<=4; i++) {
+                 $("option[name='region_"+i+"']").remove();   
+                }
+           }
+        }
+     
+     })
+  }
+  
+</script>
+
+<div id="body-wrapper">
+	<include file="Public/left" />
+    <div id="main-content">
+    	<p id="page-intro">行业分类>>
+        <hr>
+        </p>
+        <table border="1" cellpadding="1" cellspacing="0">
+            <tr align="center">
+                <td width="10%">ID</td><td>名称</td><td width="10%">操作</td>
+            </tr>
+            
+            
+            <PHP>
+            
+            for ($i = 0; $i < count($tree); $i++) {
+				echo "<tr><td>".$tree[$i]['region_id']."</td><td>".$tree[$i]['region_name'].'</td><td><a href="__APP__/fenlei/hangyeedit/id/'.$tree[$i]['region_id'].'" target="_blank">修改</a> | <a href="__APP__/fenlei/hangyedel/id/'.$tree[$i]['region_id'].'" target="_blank">删除</a></td></tr>'; 
+				if ($tree[$i]['childs']>0) {
+					for ($j = 0; $j < count($tree[$i]['childs']); $j++) {
+						echo "<tr><td>".$tree[$i]['childs'][$j]['region_id']."</td><td>┗━".$tree[$i]['childs'][$j]['region_name'].'</td><td><a href="__APP__/fenlei/hangyeedit/id/'.$tree[$i]['childs'][$j]['region_id'].'" target="_blank">修改</a> | <a href="__APP__/fenlei/hangyedel/id/'.$tree[$i]['childs'][$j]['region_id'].'" target="_blank">删除</a></td></tr>';
+						if (count($tree[$i]['childs'][$j])>0) {
+							for ($k = 0; $k < count($tree[$i]['childs'][$j]['childs']); $k++) {
+								echo "<tr><td>".$tree[$i]['childs'][$j]['childs'][$k]['region_id']."</td><td style='padding-left:30px;'>┗━".$tree[$i]['childs'][$j]['childs'][$k]['region_name'].'</td><td><a href="__APP__/fenlei/hangyeedit/id/'.$tree[$i]['childs'][$j]['childs'][$k]['region_id'].'" target="_blank">修改</a> | <a href="__APP__/fenlei/hangyedel/id/'.$tree[$i]['childs'][$j]['childs'][$k]['region_id'].'" target="_blank">删除</a></td></tr>';
+								if (count($tree[$i]['childs'][$j]['childs'][$k]['childs'])>0) {
+									for ($l = 0; $l < count($tree[$i]['childs'][$j]['childs'][$k]['childs']); $l++) {
+										echo "<tr><td>".$tree[$i]['childs'][$j]['childs'][$k]['childs'][$l]['region_id']."</td><td style='padding-left:60px;'>┗━".$tree[$i]['childs'][$j]['childs'][$k]['childs'][$l]['region_name'].'</td><td><a href="__APP__/fenlei/hangyeedit/id/'.$tree[$i]['childs'][$j]['childs'][$k]['childs'][$l]['region_id'].'" target="_blank">修改</a> | <a href="__APP__/fenlei/hangyedel/id/'.$tree[$i]['childs'][$j]['childs'][$k]['childs'][$l]['region_id'].'" target="_blank">删除</a></td></tr>';
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+            
+            
+            </PHP>
+        </table>
+    </div>
+</div>
+</body>
+</html>

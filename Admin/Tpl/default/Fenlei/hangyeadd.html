@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>添加行业</title>
+<link rel="stylesheet" href="__PUBLIC__/css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="__PUBLIC__/css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="__PUBLIC__/css/invalid.css" type="text/css" media="screen">
+<script type="text/javascript" src="__PUBLIC__/scripts/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__/scripts/simpla.jquery.configuration.js"></script>
+<body onload="region_default();">
+<script type="text/javascript">
+  //设置默认,页面加载时恢复默认选项。
+function region_default() {
+    $("option[value='-1']").attr('selected','selected');
+  }
+  function setregion(num,address_id) {
+     var next=num+1;
+     $.ajax({
+        type:'POST',
+        //设置json格式,接收返回数组。
+        dataType:'json',
+        url:'__APP__/fenlei/get_region/',
+        //ajax传递当前选项的value值,也就是当前的region_id。
+        data:'region_id='+$('#region_'+num+'_'+address_id).val(),
+        success:function(msg) {
+        //如果返回值不为空则执行。
+if (msg!=null) {
+            var option_str='';
+            //循环书写下一个select中要添加的内容。并添加name标记。
+for (var i=0; i<msg.length; i++) {
+                 option_str+='<option name="region_'+next+'"value="'+msg[i].region_id+'">'+msg[i].region_name+'</option>';
+            }
+            //删除下一个select中标记name为next的内容。
+            $("option[name='region_"+next+"']").remove();
+            //向下一个select中添加书写好的内容。
+            $('#region_'+next+'_'+address_id).append(option_str);
+           }else{
+                //如果返回值为空,则移除所有带标记的option,恢复默认选项。
+for (var i=next; i<=4; i++) {
+                 $("option[name='region_"+i+"']").remove();   
+                }
+           }
+        }
+     
+     })
+  }
+  
+</script>
+
+<div id="body-wrapper">
+	<include file="Public/left" />
+    <div id="main-content">
+    	<p id="page-intro">添加行业>>
+        <hr>
+        </p>
+        <form action="__APP__/Fenlei/hangyeaddsave/" method="post">
+            <table border="1" cellpadding="1" cellspacing="0">
+                <tr align="center">
+                  <td>&nbsp;</td>
+                    <td width="">一级分类</td><td>二级分类</td><td>三级分类</td><td>四级分类</td>
+                </tr>
+                <tr>
+                  <td>选择：</td>
+                    <td>
+                        <select name="list1" id="region_0_0" onchange="setregion(0,0);">
+                            <option name="selected" selected='selected' value="-1">请选择一级</option>
+                            <volist name="hangye" id="v">
+                            <option value="<{$v.region_id}>"><{$v.region_name}></option>
+                            </volist>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="list2" id="region_1_0" onchange="setregion(1,0);">
+                            <option name="selected" selected='selected' value="-1">请选择二级</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="list3" id="region_2_0" onchange="setregion(2,0);">
+                            <option name="selected" selected='selected' value="-1">请选择三级</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="list4" id="region_3_0">
+                            <option name="selected" selected='selected' value="-1">请选择四级</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                  <td>添加：</td>
+                    <td><input type="text" id="toedit1" name="toedit1" class="text-input medium-input" /> <input type="submit" class="button" name="add1" value="添加" /></td>
+                    <td><input type="text" id="toedit2" name="toedit2" class="text-input medium-input" /> <input type="submit" class="button" name="add2" value="添加" /></td>
+                    <td><input type="text" id="toedit3" name="toedit3" class="text-input medium-input" /> <input type="submit" class="button" name="add3" value="添加" /></td>
+                    <td><input type="text" id="toedit4" name="toedit4" class="text-input medium-input" /> <input type="submit" class="button" name="add4" value="添加" /></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div>
+</body>
+</html>

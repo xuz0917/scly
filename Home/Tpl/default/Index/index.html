@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>无标题文档</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/css/index.css"/>
+<link type="text/css" rel="stylesheet" href="__PUBLIC__/css/global.css"/>
+</head>
+
+<body>
+
+<include file="Public:top" />
+
+<div class="logo">
+	<img src="__PUBLIC__/images/logo.jpg" width="426" height="212" />
+</div>
+<div class="search">
+    <input name="pname" type="text" placeholder="请输入公司名称或产品"/>
+    <button type="submit"> </button>
+</div>
+<div style="clear:both;"></div>
+<div class="shichang">批发市场>></div>
+<div class="shichangm">
+	<volist name="shichang" id="voshichang">
+	<a href="__APP__/search?sc=<{$voshichang.name}>" target="_blank"><{$voshichang.name}></a>
+	</volist>
+    <div style="clear:both"></div>
+</div>
+
+<include file="Public:foot" />
+
+</body>
+</html>

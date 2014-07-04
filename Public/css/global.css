@@ -1,0 +1,308 @@
+@import "base.css";
+body{
+	margin-top:5px;
+	background:none;
+}
+.category {
+	width:100%;
+	position:relative;
+	bottom:-1px
+}
+.category-list .category-item-list .category-item-small a.highlight,.category-list .category-item-list .category-item-small a.highlight:visited {
+	color:#ec0000
+}
+.category-title {
+	margin:0;
+	font-weight:normal;
+	height:25px;
+	position:relative;
+	cursor:pointer;
+	text-indent:16px;
+}
+.category-title i.iconfont {
+	position:absolute;
+	right:20px;
+	color:#fff;
+	font-size:18px;
+	display:none
+}
+.category-title>a {
+	color:#fff;
+	text-decoration:none
+}
+.category-content {
+	position:absolute;
+	width:135px;
+	z-index:200;
+	border-top:0;
+	padding-top:36px;
+	padding-bottom:17px;
+	padding-bottom:11px\9;
+	background:url(../images/listtop-bg.jpg) no-repeat;
+	background-color:#c40000;
+}
+
+.category-item {
+	position:relative;
+	border-top:1px solid transparent;
+	border-bottom:1px solid transparent;
+	border-left:1px solid transparent
+}
+.category-item.hover {
+}
+.category-item.hover a {
+	color:#fff
+}
+.category-item.hover .category-item-one {
+	background:url(../images/listright-bg.jpg) right center no-repeat;
+	background-color:#a70000;
+}
+.category-item.hover .category-item-one span {
+	color:#fff
+}
+.category-item.hover.item-top em {
+	background-position:-17px 0
+}
+.category-item.hover.item-brand em {
+	background-position:-17px -15px
+}
+.category-item.hover.item-knowledge em {
+	background-position:-17px -32px
+}
+.category-item.hover.item-adv em {
+	background-position:-17px -48px
+}
+.category-item.hover.item-baozhuang em {
+	background-position:-17px -236px
+}
+.category-item.hover.item-kaifa em {
+	background-position:-17px -64px
+}
+.category-item.hover.item-wangdian em {
+	background-position:-17px -95px
+}
+.category-item.hover.item-yinxiao em {
+	background-position:-17px -80px
+}
+.category-item.hover.item-dongman em {
+	background-position:-17px -130px
+}
+.category-item.hover.item-xiezuo em {
+	background-position:-17px -148px
+}
+.category-item.hover.item-qiming em,.category-item.hover.item-software em {
+	background-position:-17px -273px
+}
+.category-item.hover.item-zonghe em,.category-item.hover.item-app em {
+	background-position:-17px -255px
+}
+.category-item.hover.item-tese em {
+	background-position:-17px -201px
+}
+.category-item.hover.item-else em {
+	background-position:-17px -218px
+}
+.category .item-top h4.title1 {
+	background:#eca1a1
+}
+.category .item-top h4.title2 {
+	background:#a1cdec;
+	margin-top:21px
+}
+.category .item-yinxiao h4.title1,.category .item-kaifa h4.title1,.category .item-wangdian h4.title1,.category .item-brand h4.title1,.category .item-knowledge h4.title1,.category .item-adv h4.title1,.category .item-dongman h4.title1 {
+	background:#eca1a1
+}
+.category .item-yinxiao h4.title2,.category .item-kaifa h4.title2,.category .item-wangdian h4.title2,.category .item-brand h4.title2,.category .item-knowledge h4.title2,.category .item-adv h4.title2,.category .item-dongman h4.title2 {
+	background:#a1cdec;
+	margin-top:21px
+}
+.category .item-baozhuang h4,.category .item-tese h4 {
+	background:#eca1bf
+}
+.category .item-xiezuo h4 {
+	background:#a1cdec
+}
+.category .item-qiming h4 {
+	background:#dae09a
+}
+.category .item-zonghe h4,.category .item-else h4 {
+	background:#fdd2b2
+}
+.category-item-one em {
+	display:inline-block;
+	width:12px;
+	height:16px;
+	font-size:0;
+	position:relative;
+	top:4px
+}
+.item-top em {
+	background-position:0 0
+}
+.item-brand em {
+	background-position:0 -15px
+}
+.item-knowledge em {
+	background-position:0 -32px
+}
+.item-baozhuang em {
+	background-position:0 -236px
+}
+.item-adv em {
+	background-position:0 -48px
+}
+.item-kaifa em {
+	background-position:0 -64px
+}
+.item-wangdian em {
+	background-position:0 -95px
+}
+.item-yinxiao em {
+	background-position:0 -80px
+}
+.item-dongman em {
+	background-position:0 -130px
+}
+.item-xiezuo em {
+	background-position:0 -148px
+}
+.item-qiming em,.item-software em {
+	background-position:0 -273px
+}
+.item-zonghe em,.item-app em {
+	background-position:0 -254px
+}
+.item-tese em {
+	background-position:0 -201px
+}
+.item-else em {
+	background-position:0 -218px
+}
+.category-item.hover .category-item-two {
+	display:block;
+	z-index:100
+}
+.category-item-one {
+	color:#666;
+	margin:0 auto;
+	padding:1px 0;
+	position:relative;
+	z-index:101
+}
+.category-item-one a {
+	font-size:14px
+}
+.category-item-one span {
+	display:inline-block;
+	zoom:1;
+	height:100%;
+	vertical-align:middle;
+	overflow:hidden;
+	margin-left:5px;
+	color:#fff
+}
+.category-item-one a,.category-item-one span {
+	color:#fff;
+	font-size:12px;
+}
+.category-item-two {
+	display:none;
+	position:absolute;
+	width:119px;
+	height:486px;
+	padding:15px;
+	left:133px;
+	background:#fff;
+	border:1px solid #ee6b01
+}
+.category-status-close .category-content {
+	display:none
+}
+.category-status-close .category-title i.down {
+	display:inline
+}
+.category-status-close.hover .category-content {
+	display:block;
+	height:auto
+}
+.category-status-close:hover .category-title i.down {
+	display:none
+}
+.category-status-close:hover .category-title i.up {
+	display:inline
+}
+.category-item-list {
+	margin-bottom:-1px;
+	overflow:hidden;
+	*zoom:1
+}
+.category-item-list:after,.category-item-list:before {
+	display:table;
+	content:"";
+	line-height:0;
+	clear:both
+}
+.category-item-list a {
+	font-size:14px
+}
+.category-item-list h4 {
+	width:119px;
+	height:20px;
+	display:inline-block;
+	text-align:center;
+	margin:0;
+	font-size:14px;
+	font-family:simsun,serif;
+	color:#fff
+}
+.category-item-list h4 a:link,.category-item-list h4 a:visited {
+	color:#fff
+}
+.category-item-small {
+	line-height:28px;
+	margin-top:9px;
+	margin-left:-18px
+}
+.category-item .category-item-small a {
+	font-size:12px;
+	line-height:18px;
+	white-space:nowrap;
+	display:inline-block;
+	line-height:23px;
+	color:#666;
+	margin-left:25px;
+	min-width:47px
+}
+.ui-menu {
+	height:40px;
+	color:#fff;
+	position:relative;
+	z-index:19;
+	background:#c40000
+}
+.ui-menu .main-wrap {
+	border-bottom:2px solid #c40000
+}
+.ui-menu .sidebar {
+	width:190px
+}
+.ui-menu .grid .main {
+	margin-left:190px
+}
+.ui-menu-bd a {
+	height:37px;
+	line-height:37px;
+	font-size:16px
+}
+.ui-menu-bd {
+	float:left;
+	margin-bottom:0
+}
+.ui-menu-bd a {
+	display:inline-block;
+	padding:0 20px;
+	color:#fff
+}
+.ui-menu-bd .ui-menu-special {
+	display:none
+}

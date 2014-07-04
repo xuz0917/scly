@@ -1,0 +1,67 @@
+<div id="sidebar">
+    <div id="sidebar-wrapper">
+      <h1 id="sidebar-title"><a href="#">商城临沂网站后台</a></h1>
+      <a href="#"><img id="logo" src="__PUBLIC__/images/logo.png" alt="Simpla Admin logo"></a>
+      <div id="profile-links"> 尊敬的管理员<a href="#" title="修改会员信息"><PHP>echo $_SESSION['admin_uname']</PHP></a>，您好！<a href="__APP__/Login/logout" title="退出登陆">退出</a><br>
+        	<br>
+        <PHP>if($_SESSION['companyname']!=''){echo '当前商户：'.$_SESSION['companyname'].' <a href="__APP__/shanghu/shifang">释放</a>';}else{echo '当前无选中商铺';}</PHP></div>
+      <ul id="main-nav">
+        <li> <a href="#" class="nav-top-item">
+          商户管理 </a>
+          <ul>
+            <li><a href="__APP__/shanghu/index">商户列表</a></li>
+            <!--<li><a class="current" href="#">认证管理</a></li>-->
+            <li><a href="__APP__/shanghu/add">商户添加</a></li>
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item">
+          产品管理 </a>
+          <ul>
+            <li><a href="__APP__/product/index">产品列表</a></li>
+            <li><a href="__APP__/product/add">产品添加</a></li>
+            <li><a href="__APP__/product/prolist">产品分类</a></li>
+            <li><a href="__APP__/product/prolistadd">分类添加</a></li>
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item"> 分类管理 </a>
+          <ul>
+            <li><a href="__APP__/fenlei/shichang">市场管理</a></li>
+            <li><a href="__APP__/fenlei/shichangadd">市场添加</a></li>
+            <li><a href="__APP__/fenlei/hangye">行业分类</a></li>
+            <li><a href="__APP__/fenlei/hangyeadd">行业添加</a></li>
+            <li><a href="__APP__/fenlei/chengshi">城市分类</a></li>
+            <li><a href="__APP__/fenlei/chengshiadd">城市添加</a></li>
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item"> 新闻内容管理 </a>
+          <ul>
+            <li><a href="#">新闻列表</a></li>
+            <li><a href="#">新闻添加</a></li>
+            <li><a href="#">新闻分类</a></li>
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item"> 招聘管理 </a>
+          <ul>
+            <li><a href="#">招聘列表</a></li>
+            <li><a href="#">招聘添加</a></li>
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item"> 广告管理 </a>
+          <ul>
+            <li><a href="#">广告列表</a></li>
+            <li><a href="#">广告添加</a></li>
+            <li><a href="#">广告分类列表</a></li>
+            <li><a href="#">广告分类添加</a></li>
+          </ul>
+        </li>
+        <li> <a href="#" class="nav-top-item"> 系统设置 </a>
+          <ul>
+            <li><a href="#">管理员管理</a></li>
+            <li><a href="#">系统参数</a></li>
+            <li><a href="#">会员级别管理</a></li>
+          </ul>
+        </li>
+      </ul>
+      <!-- End #messages -->
+    </div>
+  </div>
