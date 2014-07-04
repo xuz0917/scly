@@ -21,22 +21,6 @@ class IndexAction extends Action{
     	$this->display();
     }
     
-    /*
-     *@param $cp 产品名称
-     *@param $gs 公司名称
-     *@param $sc 市场名称
-     *@param $cpl 产品分类名称 
-     */
-    public function search($cp,$gs,$sc,$hy) {
-    	
-    	$where='1=1';
-    	
-    	$ProductModel=M('Product');
-    	$Product=$ProductModel->where($where)->order("id desc")->select();
-    	
-    	$this->display();
-    }
-    
     //获取父分类
     public function getparent($arr) {
     	$parentarr=array();
@@ -61,5 +45,45 @@ class IndexAction extends Action{
     		}
     	}
     	return $sonarr;
+    }
+    
+
+    /*
+    *@param $cp 产品名称
+    *@param $gs 公司名称
+    *@param $sc 市场名称
+    *@param $hy 产品分类名称
+    */
+    public function search($cp=0,$gs=0,$sc=0,$hy=0) {
+    	 
+    	$where='';
+    	$join='';
+    	
+    	
+    	if($cp){
+    		
+    		$where=$where." and cp='$cp'";
+    	}
+    	if($gs){
+    		
+    	}
+    	if($sc){
+    		$where=$where." and sc='$sc'";
+    	}
+    	if($hy){
+    		$where=$where." and hy='$hy'";
+    	}
+
+    	
+    	$ProductModel=new Model();
+    	$Product=$ProductModel->query("
+    			select * from sc_company as c
+    			
+    			left join sc_shichang as s on c.shichang=s.id
+    			right join sc_product as p on p.cid=c.id
+    			
+    			where status=1");
+    	 
+    	$this->display();
     }
 }
