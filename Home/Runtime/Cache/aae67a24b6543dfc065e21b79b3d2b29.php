@@ -13,7 +13,7 @@
 <!--top begin-->
 <div class="top">
 	<div class="top_L">
-		<iframe src="__APP__/index.php/Index/tplist" frameborder="0" height="590"></iframe>
+		<iframe src="__APP__/index.php/Index/tplist" frameborder="0" allowTransparency="true" height="590"></iframe>
 	</div>
     <div class="top_R">
     	<a href="#" target="_blank">商城临沂</a> |
