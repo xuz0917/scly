@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>荣誉资质-<{$company.companyname}></title>
+<meta name="keywords" content="<{$company.keywords}>" />
+<meta name="description" content="<{$company.description}>" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link href="__PUBLIC__/company/css/style.css" rel="stylesheet" type="text/css" /> 
+</head>
+<body>
+<include file="Public:comtop" />
+<div class="mainbox0">
+    <div class="main">
+    	<include file="Public:comleft" />
+        <div class="right">
+            
+        	<div class="shiting mb15">
+            	<div class="shiting-t"></div>
+            	<div class="shiting-m">
+                    <div class="shiting-bt">
+                    	<div class="title"><span class="color1">荣誉资质</span><span class="color2"> / RONGYU</span></div>
+                    </div>
+                    <div class="shiting-nr" id="nrtt1"  style="display:">
+                          <ul>
+                          <PHP>
+		                    if($company['rongyu']){
+		                        echo "<li><a href='{$company['rongyu']}' target='_blank'>
+		                            <img src='{$company['rongyu']}' width='343' height='205'  /></a></li>
+		                        ";
+		                    }
+		                    if($company['rongyu1']){
+		                        echo "<li><a href='{$company['rongyu1']}' target='_blank'>
+		                            <img src='{$company['rongyu1']}' width='343' height='205'  /></a></li>
+		                        ";
+		                    }
+		                    if($company['rongyu2']){
+		                        echo "<li><a href='{$company['rongyu2']}' target='_blank'>
+		                            <img src='{$company['rongyu2']}' width='343' height='205'  /></a></li>
+		                        ";
+		                    }
+		                    if($company['rongyu3']){
+		                        echo "<li><a href='{$company['rongyu3']}' target='_blank'>
+		                            <img src='{$company['rongyu3']}' width='343' height='205'  /></a></li>
+		                        ";
+		                    }
+		                    if($company['rongyu4']){
+		                        echo "<li><a href='{$company['rongyu4']}' target='_blank'>
+		                            <img src='{$company['rongyu4']}' width='343' height='205'  /></a></li>
+		                        ";
+		                    }
+		                    if($company['rongyu5']){
+		                        echo "<li><a href='{$company['rongyu5']}' target='_blank'>
+		                            <img src='{$company['rongyu5']}' width='343' height='205'  /></a></li>
+		                        ";
+		                    }
+		                    if($company['rongyu6']){
+		                        echo "<li><a href='{$company['rongyu6']}' target='_blank'>
+		                            <img src='{$company['rongyu6']}' width='343' height='205'  /></a></li>
+		                        ";
+		                    }
+		                    if($company['rongyu7']){
+		                        echo "<li><a href='{$company['rongyu7']}' target='_blank'>
+		                            <img src='{$company['rongyu7']}' width='343' height='205'  /></a></li>
+		                        ";
+		                    }  
+                          	</PHP>
+                          </ul>
+                         
+  					</div><div style="clear:both"></div>
+                    <div style="clear:both"></div>
+                     
+                </div>
+            	<div class="shiting-b"></div>
+            </div>   
+        </div>
+            
+    </div>
+    <div style="clear:both"></div>
+</div>  
+
+<include file="Public:comfoot" />
+<div style="clear:both"></div> 
+</body>
+</html>
+

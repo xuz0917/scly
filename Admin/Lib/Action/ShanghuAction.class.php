@@ -40,6 +40,7 @@ class ShanghuAction extends CommonAction {
 		$data['companyname']=trim($_POST['companyname']);
 		$data['star']=trim($_POST['star']);
 		$data['address']=trim($_POST['address']);
+		$data['lianxi']=$_POST['lianxi'];
 		$data['qq']=trim($_POST['qq']);
 		$data['chengshi']=trim($_POST['chengshi']);
 		if (isset($_POST['renzheng'])) {
@@ -50,10 +51,12 @@ class ShanghuAction extends CommonAction {
 		$data['title']=trim($_POST['title']);
 		$data['keywords']=trim($_POST['keywords']);
 		$data['description']=trim($_POST['description']);
-		
+
 		$data['yunying']=trim($_POST['yunying']);
+		$data['zhuying']=trim($_POST['zhuying']);
 
 		$data['logo']=trim($_POST['logo']);
+		$data['youshangtu']=trim($_POST['youshangtu']);
 		$data['mastertu']=trim($_POST['mastertu']);
 		$data['jianjie']=trim($_POST['jianjie']);
 		$data['hotline']=trim($_POST['hotline']);
@@ -118,6 +121,7 @@ class ShanghuAction extends CommonAction {
 		$data['companyname']=trim($_POST['companyname']);
 		$data['star']=trim($_POST['star']);
 		$data['address']=trim($_POST['address']);
+		$data['lianxi']=$_POST['lianxi'];
 		$data['qq']=trim($_POST['qq']);
 		$data['chengshi']=trim($_POST['chengshi']);
 		if (isset($_POST['renzheng'])) {
@@ -130,8 +134,10 @@ class ShanghuAction extends CommonAction {
 		$data['description']=trim($_POST['description']);
 		
 		$data['yunying']=trim($_POST['yunying']);
+		$data['zhuying']=trim($_POST['zhuying']);
 
 		$data['logo']=trim($_POST['logo']);
+		$data['youshangtu']=trim($_POST['youshangtu']);
 		$data['mastertu']=trim($_POST['mastertu']);
 		$data['jianjie']=trim($_POST['jianjie']);
 		$data['hotline']=trim($_POST['hotline']);

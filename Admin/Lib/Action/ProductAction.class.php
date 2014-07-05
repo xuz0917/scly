@@ -124,6 +124,7 @@ class ProductAction extends CommonAction {
 		$prolist=$prolistModel->table('sc_prolist as l')
 							->join('sc_company as c on l.cid=c.id')
 							->field('l.*,c.companyname')
+							->where("cid='{$_SESSION['companyid']}'")
 							->select();
 		
 		$this->assign("prolist",$prolist);

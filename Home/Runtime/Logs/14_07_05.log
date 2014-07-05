@@ -1,0 +1,2279 @@
+[ 2014-07-05T11:36:26+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.102304s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.033355s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023664s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001203s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001074s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001338s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005419s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001573s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001686s ]
+
+[ 2014-07-05T11:36:28+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002360s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001150s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022632s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022768s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001111s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000867s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001061s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004254s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2014-07-05T11:36:29+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.006280s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001315s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027108s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001342s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001264s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001061s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005303s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001504s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001604s ]
+
+[ 2014-07-05T11:36:29+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002758s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001246s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024529s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001274s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001250s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005152s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001426s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001529s ]
+
+[ 2014-07-05T11:36:29+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002723s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001749s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020902s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001085s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001006s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001022s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004438s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001346s ]
+
+[ 2014-07-05T11:38:16+08:00 ] 127.0.0.1 /index.php/Index/search
+ERR: 参数错误或者未定义:cp
+
+[ 2014-07-05T11:38:35+08:00 ] 127.0.0.1 /index.php/Index/list.html
+ERR: 非法操作:list
+
+[ 2014-07-05T11:38:52+08:00 ] 127.0.0.1 /index.php/Index/list.html
+ERR: 非法操作:list
+
+[ 2014-07-05T11:39:54+08:00 ] 127.0.0.1 /index.php/Index/list.html
+ERR: 非法操作:list
+
+[ 2014-07-05T11:39:55+08:00 ] 127.0.0.1 /index.php/Index/list.html
+ERR: 非法操作:list
+
+[ 2014-07-05T11:40:55+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003349s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.003286s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014288s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000574s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000505s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000361s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002298s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000815s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2014-07-05T11:41:32+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003457s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001948s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018442s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002130s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001902s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001135s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007415s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003947s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004288s ]
+
+[ 2014-07-05T11:41:49+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002713s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001672s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012912s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000632s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000562s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000491s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002511s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2014-07-05T11:46:52+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002729s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.009700s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022063s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001179s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001085s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002890s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006626s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001990s ]
+
+[ 2014-07-05T11:52:56+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.004279s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001804s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019583s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001593s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002615s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002514s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009381s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002639s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002767s ]
+
+[ 2014-07-05T11:55:22+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002670s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.034480s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013314s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000478s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000396s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001832s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000828s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000913s ]
+
+[ 2014-07-05T11:55:24+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003174s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.008535s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015470s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000710s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000406s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000272s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000726s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002328s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000758s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2014-07-05T11:55:56+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002632s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001744s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013557s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000831s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000786s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000566s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004239s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010497s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010622s ]
+
+[ 2014-07-05T11:57:50+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002449s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.018431s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013746s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000493s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000391s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000266s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001835s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000760s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2014-07-05T12:04:40+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002870s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.006347s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014528s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000731s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001164s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000802s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000875s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004190s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001170s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2014-07-05T12:05:11+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002674s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.037790s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017466s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001310s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001392s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001041s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005335s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001514s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001628s ]
+
+[ 2014-07-05T12:07:11+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002752s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.042509s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044660s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001464s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001275s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005521s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001577s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001699s ]
+
+[ 2014-07-05T12:07:12+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.006261s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.005287s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027353s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027505s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001188s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001221s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000869s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004621s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001248s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2014-07-05T12:07:34+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002691s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.009933s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021976s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000631s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000545s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002503s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000852s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2014-07-05T12:10:46+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.006926s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.004160s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015827s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000641s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000428s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000271s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002099s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000647s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2014-07-05T12:10:53+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002501s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.005329s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039801s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000558s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000442s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001976s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000634s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000707s ]
+
+[ 2014-07-05T12:13:30+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.005503s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.030946s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017072s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001584s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001251s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001440s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005718s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001292s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001387s ]
+
+[ 2014-07-05T12:27:04+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002944s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.006565s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028560s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000551s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000451s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002157s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000784s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2014-07-05T12:27:10+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002518s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.032926s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022729s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000732s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000572s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000742s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003032s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001034s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2014-07-05T12:48:14+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002754s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.031359s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027165s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000604s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000496s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000359s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002283s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000802s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2014-07-05T12:48:15+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002730s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.019407s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023410s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004217s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001240s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001183s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009791s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004168s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004310s ]
+
+[ 2014-07-05T14:43:44+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.045777s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.008724s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.138354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.138497s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000497s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000458s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000287s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001948s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000688s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2014-07-05T14:43:48+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.038913s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001593s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011913s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000506s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000542s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002219s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000827s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2014-07-05T14:43:50+08:00 ] 127.0.0.1 /index.php/Index/search&sc=%E9%B2%81%E5%8D%97%E5%BB%BA%E6%9D%90%E6%89%B9%E5%8F%91%E5%9F%8E
+ERR: 非法操作:search&sc=鲁南建材批发城
+
+[ 2014-07-05T14:43:59+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002888s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.007624s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021173s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001728s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001186s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001065s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001239s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005537s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002322s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002513s ]
+
+[ 2014-07-05T14:44:04+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003366s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001471s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011371s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000553s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000493s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000334s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002443s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001370s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001544s ]
+
+[ 2014-07-05T14:44:07+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002346s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.008282s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020552s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000690s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000841s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002851s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2014-07-05T14:44:09+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003224s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.004252s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026309s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000657s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000921s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000580s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003527s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000809s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000928s ]
+
+[ 2014-07-05T14:45:24+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002756s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.004033s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015092s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000604s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000537s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000348s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002344s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000965s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2014-07-05T14:45:26+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002552s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001205s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011350s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000471s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000408s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000275s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001849s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001242s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001375s ]
+
+[ 2014-07-05T14:45:28+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002267s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002556s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011958s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000483s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000403s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001838s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2014-07-05T14:45:29+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002520s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001190s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012251s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000634s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000560s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000750s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002712s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000874s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2014-07-05T14:45:30+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002267s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001425s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026011s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026161s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001458s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001028s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000844s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001077s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004690s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001220s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2014-07-05T14:45:31+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002333s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001162s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012178s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000660s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000427s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000616s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002228s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000881s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2014-07-05T14:49:35+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002382s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001250s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011723s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000471s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000411s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000274s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001843s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000671s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2014-07-05T14:49:54+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003184s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.010318s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016099s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001165s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001231s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000711s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004596s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001042s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2014-07-05T14:58:35+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.008931s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001209s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015645s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001465s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001239s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000849s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004899s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001211s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001313s ]
+
+[ 2014-07-05T14:58:38+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002772s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.003333s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015092s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000573s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000527s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002398s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000878s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2014-07-05T14:58:39+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.004721s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002406s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025962s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001007s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000750s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000546s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000925s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003682s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000933s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2014-07-05T14:58:42+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.004752s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001372s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011487s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000890s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001364s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003780s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000945s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001107s ]
+
+[ 2014-07-05T14:58:42+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.004164s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.003934s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015208s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000571s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000630s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000439s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002544s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000806s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2014-07-05T14:58:44+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003103s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.008028s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014924s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000544s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000349s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003257s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001374s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001576s ]
+
+[ 2014-07-05T14:58:44+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.004186s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002142s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015755s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001451s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001197s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001132s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001226s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005351s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001775s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001984s ]
+
+[ 2014-07-05T14:59:07+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002951s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.025064s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013798s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000607s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000520s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000379s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002374s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000844s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2014-07-05T14:59:08+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003524s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.005376s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015651s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000551s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000593s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002889s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001702s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002374s ]
+
+[ 2014-07-05T14:59:09+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002331s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001245s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017257s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001073s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000969s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000847s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004208s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001322s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2014-07-05T14:59:10+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.004438s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002427s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012975s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001094s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000932s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003844s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001230s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2014-07-05T14:59:11+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.004431s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.039973s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015661s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001591s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000594s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000425s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003910s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000880s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2014-07-05T15:00:49+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003340s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.012004s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019404s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001180s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001508s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001085s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005415s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001540s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001630s ]
+
+[ 2014-07-05T15:00:50+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002484s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001259s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011292s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011432s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000485s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000397s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000269s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001981s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2014-07-05T15:00:51+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003882s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.006752s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018199s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018481s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000686s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000696s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000530s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000688s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002946s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000972s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001101s ]
+
+[ 2014-07-05T15:00:52+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002414s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001142s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012756s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000631s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000442s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000288s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002189s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000984s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2014-07-05T15:01:09+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002711s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001485s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029026s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000874s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000561s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002900s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000942s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2014-07-05T15:01:12+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003188s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.004315s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016100s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000994s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000626s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000995s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003440s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000836s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2014-07-05T15:01:41+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003480s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.004131s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019907s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001095s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001049s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001092s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004668s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001376s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001476s ]
+
+[ 2014-07-05T15:01:42+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002697s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.003812s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029342s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000602s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000524s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002352s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000838s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2014-07-05T15:02:35+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003309s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.015249s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019163s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001332s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000971s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001047s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001070s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004678s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001604s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001734s ]
+
+[ 2014-07-05T15:02:36+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003678s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.021238s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022753s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002322s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003318s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001621s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009297s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001572s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001682s ]
+
+[ 2014-07-05T15:03:36+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003038s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.004144s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020980s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001583s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001974s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001357s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006814s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004789s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004933s ]
+
+[ 2014-07-05T15:03:47+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002912s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.003564s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076732s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003038s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001542s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001596s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009362s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001423s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001513s ]
+
+[ 2014-07-05T15:03:48+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.004180s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.132747s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017900s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000982s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000782s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000454s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003805s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001424s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2014-07-05T15:04:02+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003150s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.005883s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028799s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000592s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000491s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000359s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002370s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001004s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001141s ]
+
+[ 2014-07-05T15:04:03+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.014526s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002058s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015840s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000640s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000503s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000336s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002423s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001127s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2014-07-05T15:04:29+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002616s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.003058s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013466s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000611s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000518s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000318s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002227s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.014360s ]
+INFO: [ view_end ] --END-- [ RunTime:0.014480s ]
+
+[ 2014-07-05T15:04:33+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003004s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.006552s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012645s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000591s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000524s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000366s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000792s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002560s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001201s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001317s ]
+
+[ 2014-07-05T15:07:33+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002889s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.036161s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022152s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000601s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001760s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001352s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004611s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000784s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000885s ]
+
+[ 2014-07-05T15:07:42+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002623s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002539s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016260s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001486s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001219s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001137s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005626s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001666s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001780s ]
+
+[ 2014-07-05T15:10:09+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002603s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.011713s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016531s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001262s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001761s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001732s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006767s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001545s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001636s ]
+
+[ 2014-07-05T15:10:10+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002834s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.007914s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016485s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001294s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001083s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000890s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004938s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001196s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2014-07-05T15:10:11+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.023314s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.009025s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035891s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001395s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001215s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001108s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006475s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001485s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001604s ]
+
+[ 2014-07-05T15:11:56+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.004427s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.004591s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017467s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002241s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002335s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002004s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008374s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001505s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001669s ]
+
+[ 2014-07-05T15:11:57+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002983s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002272s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014735s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000608s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000474s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002354s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000790s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2014-07-05T15:11:58+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.004802s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.003115s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012822s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012976s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000595s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000541s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002414s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000822s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2014-07-05T15:12:38+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002647s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002783s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033119s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033296s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001247s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001188s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001008s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005298s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001531s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2014-07-05T15:12:39+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003058s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.003125s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018690s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001767s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001168s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001379s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005964s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001405s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2014-07-05T15:12:45+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002583s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001281s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018525s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000954s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000522s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002612s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000764s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2014-07-05T15:12:55+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002429s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002588s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013688s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000513s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002386s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000704s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2014-07-05T15:12:56+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002961s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001838s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013277s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000559s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000737s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000575s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003379s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001567s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001793s ]
+
+[ 2014-07-05T15:13:02+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002918s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.003168s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018953s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000585s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000370s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002485s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000849s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2014-07-05T15:13:11+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002318s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002997s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014194s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000417s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000280s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001940s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000679s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2014-07-05T15:13:12+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002947s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.005982s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017967s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000594s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000492s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000570s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002272s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000807s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000912s ]
+
+[ 2014-07-05T15:13:13+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003556s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.019858s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013162s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000851s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000847s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000591s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000815s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003548s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001085s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001210s ]
+
+[ 2014-07-05T15:13:56+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002583s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.028508s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016807s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000495s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000401s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000296s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001886s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000640s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2014-07-05T15:13:57+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003442s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.007014s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019592s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002235s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002032s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001804s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008144s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001423s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001511s ]
+
+[ 2014-07-05T15:13:58+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003022s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.005428s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013499s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000773s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000572s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000362s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002647s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000918s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001025s ]
+
+[ 2014-07-05T15:13:59+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.008607s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.014679s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019534s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000561s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000547s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000408s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002473s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000807s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2014-07-05T15:13:59+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002371s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.007700s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013377s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000571s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000540s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000393s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002541s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000839s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2014-07-05T15:13:59+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.006552s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.011452s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018493s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018901s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001251s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001159s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000833s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004786s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001184s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2014-07-05T15:14:01+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.005362s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.010452s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013941s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014086s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000550s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000527s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000321s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000691s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002356s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000799s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000891s ]
+
+[ 2014-07-05T15:14:02+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.004092s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.008143s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013468s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000567s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000482s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000365s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002337s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000902s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2014-07-05T15:14:04+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002812s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002020s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013496s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000731s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000533s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000412s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002675s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000868s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2014-07-05T15:14:04+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002263s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001158s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014017s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000601s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000538s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002396s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000861s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000959s ]
+
+[ 2014-07-05T15:15:42+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002966s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.005256s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016819s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000613s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000565s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000392s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002452s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000753s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2014-07-05T15:16:06+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003823s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.007014s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017833s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001176s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001078s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001043s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004895s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001466s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2014-07-05T15:16:07+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.006285s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002811s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013878s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014066s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000608s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000532s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000367s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002403s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000811s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2014-07-05T15:17:05+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002746s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.003786s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019892s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020128s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000823s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000710s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000484s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003653s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001454s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001668s ]
+
+[ 2014-07-05T15:17:50+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.006622s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.055781s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015753s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015903s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000617s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000628s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000365s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000811s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002718s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000816s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000926s ]
+
+[ 2014-07-05T15:18:01+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003232s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001908s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015650s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000652s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000492s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000300s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002193s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000762s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2014-07-05T15:18:05+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003963s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002052s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016860s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001265s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000911s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000789s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003967s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001027s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2014-07-05T15:18:12+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003547s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.003106s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016819s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000630s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000513s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000375s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000599s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002423s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000917s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001035s ]
+
+[ 2014-07-05T15:18:29+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002841s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.006727s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016301s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000626s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000521s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000370s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002389s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000785s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2014-07-05T15:18:30+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003668s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002341s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017953s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000598s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000525s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002374s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000806s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2014-07-05T15:18:30+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.005101s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.006457s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016024s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000756s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000546s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002761s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000910s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2014-07-05T15:18:31+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.004198s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.003166s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016812s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001135s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000729s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003823s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001665s ]
+
+[ 2014-07-05T15:18:31+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002738s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001155s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014748s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000497s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000439s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000298s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001967s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000666s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2014-07-05T15:19:55+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.004151s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002577s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016577s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001259s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003451s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001382s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008085s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002021s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002147s ]
+
+[ 2014-07-05T15:19:56+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003380s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.005439s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017602s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001343s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001119s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001477s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001083s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005288s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001243s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2014-07-05T15:20:38+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003890s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.010861s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016146s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000526s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000435s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000709s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2014-07-05T15:21:12+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002971s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.026762s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012746s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000532s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000354s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002369s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2014-07-05T15:21:13+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002919s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002007s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017291s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000879s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000896s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000556s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000820s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003548s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000941s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2014-07-05T15:22:59+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002798s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001500s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014541s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001078s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001027s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000853s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004220s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001259s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2014-07-05T15:23:00+08:00 ] 127.0.0.1 /search?sc=3
+ERR: 无法加载模块:Search
+
+[ 2014-07-05T15:23:02+08:00 ] 127.0.0.1 /search?sc=1
+ERR: 无法加载模块:Search
+
+[ 2014-07-05T15:23:06+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003545s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002906s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017226s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000863s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000738s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000617s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000636s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003249s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001446s ]
+
+[ 2014-07-05T15:23:21+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002300s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001173s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013210s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000580s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000661s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000342s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002357s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2014-07-05T15:23:24+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.015844s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002081s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014085s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000719s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000411s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000272s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000483s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002098s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2014-07-05T15:23:25+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003926s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002222s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012596s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012783s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000593s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000270s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002002s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2014-07-05T15:23:27+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002861s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.006046s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012811s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000477s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000403s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000268s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000506s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001857s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2014-07-05T15:23:28+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002473s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001222s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012908s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000507s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000284s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002110s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000704s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2014-07-05T15:23:29+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002815s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002739s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012047s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000633s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000499s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000880s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002745s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001071s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001203s ]
+
+[ 2014-07-05T15:23:33+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002645s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.004544s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021230s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000589s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000282s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001086s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002882s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001290s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2014-07-05T15:23:52+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002874s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.006012s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017719s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000548s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000373s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002407s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000934s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2014-07-05T15:23:54+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.018072s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.002433s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012942s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000485s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000410s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000273s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000488s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001859s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2014-07-05T15:23:57+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002335s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.003029s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014715s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000564s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000404s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000571s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002456s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000818s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2014-07-05T15:24:04+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003300s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.012640s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014916s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000477s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000407s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001255s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002858s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000929s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001042s ]
+
+[ 2014-07-05T15:24:05+08:00 ] 127.0.0.1 /Company-10
+ERR: 非法操作:company-10
+
+[ 2014-07-05T15:24:09+08:00 ] 127.0.0.1 /Company-10
+ERR: 非法操作:company-10
+
+[ 2014-07-05T15:24:47+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.004914s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.003686s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013639s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000575s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000509s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002258s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000698s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000774s ]
+
+[ 2014-07-05T15:24:48+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002278s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001269s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013840s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000663s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000408s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000274s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002097s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2014-07-05T15:24:48+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002718s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001705s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013150s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000408s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000299s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001935s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000688s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2014-07-05T15:24:49+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002271s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001153s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014182s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000572s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000527s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002264s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000780s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2014-07-05T15:24:50+08:00 ] 127.0.0.1 /Company-10
+ERR: 非法操作:company-10
+
+[ 2014-07-05T15:36:29+08:00 ] 127.0.0.1 /index.php/company
+ERR: 参数错误或者未定义:id
+
+[ 2014-07-05T15:36:35+08:00 ] 127.0.0.1 /index.php/company/index
+ERR: 参数错误或者未定义:id
+
+[ 2014-07-05T15:36:44+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:36:54+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:36:55+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:37:08+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:37:08+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:37:09+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:37:09+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:38:10+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:38:11+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:38:48+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:38:49+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:39:04+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:39:04+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:39:10+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:39:11+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:39:17+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:39:17+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:40:23+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:40:24+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:42:13+08:00 ] 127.0.0.1 /index.php/company/css/style.css
+ERR: 非法操作:css
+
+[ 2014-07-05T15:50:07+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.003929s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001457s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012370s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012538s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000581s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000772s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000371s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000580s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002591s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000815s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2014-07-05T15:50:09+08:00 ] 127.0.0.1 /Company-10
+ERR: 非法操作:company-10
+
+[ 2014-07-05T15:50:31+08:00 ] 127.0.0.1 /Company-10
+ERR: 非法操作:company-10
+
+[ 2014-07-05T15:50:33+08:00 ] 127.0.0.1 /Company-10
+ERR: 非法操作:company-10
+
+[ 2014-07-05T15:50:33+08:00 ] 127.0.0.1 /Company-10
+ERR: 非法操作:company-10
+
+[ 2014-07-05T15:50:33+08:00 ] 127.0.0.1 /Company-10
+ERR: 非法操作:company-10
+
+[ 2014-07-05T15:50:34+08:00 ] 127.0.0.1 /Company-10
+ERR: 非法操作:company-10
+
+[ 2014-07-05T15:51:09+08:00 ] 127.0.0.1 /Company-10
+ERR: 非法操作:company-10
+
+[ 2014-07-05T16:40:03+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.019643s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001203s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038933s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000509s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002252s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000853s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2014-07-05T16:40:12+08:00 ] 127.0.0.1 /index.php/Index/tplist
+SQL: SHOW COLUMNS FROM `sc_hangye` [ RunTime:0.002606s ]
+SQL: SELECT * FROM `sc_hangye`  [ RunTime:0.001228s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012112s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000501s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000420s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000297s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001951s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2014-07-05T16:46:39+08:00 ] 127.0.0.1 /company-lianxi-10
+ERR: 非法操作:lianxi
+
+[ 2014-07-05T16:46:42+08:00 ] 127.0.0.1 /css/company.css
+ERR: 非法操作:css
+
+[ 2014-07-05T16:55:17+08:00 ] 127.0.0.1 /%7B$company[
+ERR: 非法操作:{$company[
+
+[ 2014-07-05T16:58:01+08:00 ] 127.0.0.1 /company-rongyu-10
+ERR: 非法操作:rongyu
+
+[ 2014-07-05T16:58:12+08:00 ] 127.0.0.1 /company-rongyu-10
+ERR: 模板不存在[./Home/Tpl/default/Company/rongyu.html]
+

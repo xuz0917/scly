@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title><{$company.title}>-<{$company.companyname}></title>
+<meta name="keywords" content="<{$company.keywords}>" />
+<meta name="description" content="<{$company.description}>" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link href="__PUBLIC__/company/css/style.css" rel="stylesheet" type="text/css" /> 
+</head>
+<body>
+<include file="Public:comtop" />
+<div class="mainbox0">
+    <div class="main">
+		<include file="Public:comleft" />
+    	
+        <div class="right">
+        	<div class="anli mb15">
+            	<div class="anli-t"></div>
+            	<div class="anli-m">
+                    <div class="anli-bt">
+                    	<div class="title"><span class="color1">公司简介</span><span class="color2"> / COMPANY</span></div>
+                    </div>
+                    <div class="anli-nr">
+                    	<PHP>mb_strcut($company['jianjie'],0,500,'UTF-8')</PHP>
+                    </div>
+                </div>
+            	<div class="anli-b"></div>
+            </div>
+            
+            <div class="zhuying mb15">
+            	<div class="zhuying-t"></div>
+            	<div class="zhuying-m">
+                    <div class="zhuying-bt">
+                    	<div class="title"><span class="color1">公司主营</span><span class="color2"> / MAIN</span></div>
+                    </div>
+                    <div class="zhuying-bt">
+                    	<div class="title"><span class="color1">联系方式</span><span class="color2"> / CONTACTS</span></div>
+                    </div>
+                    <div class="zhuying-nr" style=" border-right:1px dashed #CCC">
+                    	<p><{$company.zhuying}></p>
+                    </div>
+                    <div class="zhuying-nr" style="float:right">
+                    	<{$company.lianxi}>
+                    </div>
+                </div>
+            	<div class="zhuying-b"></div>
+            </div>
+            
+        	<div class="shiting mb15">
+            	<div class="shiting-t"></div>
+            	<div class="shiting-m">
+                    <div class="shiting-bt">
+                    	<div class="title"><span class="color1">产品中心</span><span class="color2"> / PRODUCT</span></div>
+                    </div>
+                    <div class="shiting-nr" id="nrtt1"  style="display:">
+                          <ul>
+                          <volist name="product" id="voproduct">
+                          	<li>
+                            	<a href="__APP__/item-<{$voproduct.id}>">
+                                	<img src="<{$voproduct.pic1}>" />
+                                    <div><{$voproduct.title}></div>
+                                </a>
+                            </li>
+                          </volist>
+                          </ul>
+                         
+  					</div><div style="clear:both"></div>
+                    <div style="clear:both"></div>
+                     
+                </div>
+            	<div class="shiting-b"></div>
+            </div>   
+        </div>
+            
+    </div>
+    <div style="clear:both"></div>
+</div>  
+<include file="Public:comfoot" />
+
+<div style="clear:both"></div> 
+</body>
+</html>
+

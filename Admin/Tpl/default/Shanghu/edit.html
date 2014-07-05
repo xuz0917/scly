@@ -107,6 +107,20 @@
                 	<td><input type="text" name="address" class="text-input large-input" value="<{$company.address}>" /></td>
                 </tr>
                 <tr>
+                	<td style="vertical-align:middle">联系方式：</td>
+                	<td height="200"><textarea name="lianxi" id="lianxi"></textarea>
+                    	<script type="text/javascript">
+							CKEDITOR.replace( 'lianxi',     {
+								filebrowserBrowseUrl : '__PUBLIC__/ckeditor/ckfinder/ckfinder.html',     
+								filebrowserImageBrowseUrl : '__PUBLIC__/ckeditor/ckfinder/ckfinder.html?Type=Images',    
+								filebrowserFlashBrowseUrl : '__PUBLIC__/ckeditor/ckfinder/ckfinder.html?Type=Flash',     
+								filebrowserUploadUrl : '__PUBLIC__/ckeditor/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files',     
+								filebrowserImageUploadUrl : '__PUBLIC__/ckeditor/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Images',     
+								filebrowserFlashUploadUrl : '__PUBLIC__/ckeditor/ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Flash'     })
+                        </script>
+                    </td>
+                </tr>
+                <tr>
                 	<td style="vertical-align:middle">公司简介：</td>
                 	<td height="200"><textarea name="jianjie" id="jianjie"><{$company.jianjie}></textarea>
                     	<script type="text/javascript">
@@ -131,6 +145,12 @@
                     <script type="text/javascript">
 						document.getElementById("yunying").value='<{$company.yunying}>';
 					</script>
+                    </td>
+                </tr>
+                <tr>
+                  <td>主营：</td>
+                  <td>
+                  	<textarea name="zhuying" id="zhuying"><{$company.zhuying}></textarea>
                     </td>
                 </tr>
                 <tr>

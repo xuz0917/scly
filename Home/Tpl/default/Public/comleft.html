@@ -1,0 +1,46 @@
+<div class="left">
+        	<div class="lm mb15">
+            	<div class="lm-t"></div>
+            	<div class="lm-m">
+                    <div class="lm-bt"><span class="more1"><a href="__APP__/company-lianxi-<{$company.id}>" target="_blank"><img src="__PUBLIC__/company/images/more.gif" /></a></span><div class="title"><span class="color1">
+                        基本信息</span><span class="color2"> / BASE</span></div></div>
+                    <div class="lm-nr">
+                    	<h1>临沂天马灯饰</h1>
+                        <img src="<{$company.mastertu}>" width="229" height="153" /><br /><br />
+                        负 责 人：<{$company.fuzeren}><br />
+						服务监督：<{$company.supervise}><br />
+                        -----------------------------<br />
+                        <a href="__APP__/company-lianxi-<{$company.id}>" target="_blank">查看更多>></a>
+
+                    </div>
+                </div>
+            	<div class="lm-b"></div>
+            </div>
+        	<div class="cy mb15">
+                <div class="left1-t"></div>
+                <div class="left1-m">
+                    <div class="left1-bt"><div class="title3"><span class="color1">产品列表</span><span class="color2"> / PRODUCTS</span></div>
+                    </div>
+                    <div class="left1-nr">
+                        <ul>
+                        	<php>foreach($prolist as $value){</php>
+                            <li style="cursor: pointer;" class="tab-bt"><div class="biaoti"><span class="jian"><PHP>echo $value['name'];</PHP></span></div>
+                                <ul>
+                                    <li class="tab-nr">
+                                        <div class="kk">
+                                            <ul>
+                                            <PHP>foreach($value['childs'] as $sonvalue){</PHP>
+                                                 <li><a href="__APP__/company-product-<{$company.id}>?id=<PHP>echo $sonvalue['id'];</PHP>"><PHP>echo $sonvalue['name'];</PHP></a></li>
+                                            <php>}</php>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        	<php>}</php>
+                        </ul>
+                    </div>
+                </div>
+                <div class="left1-b"></div>
+            </div>
+        </div>

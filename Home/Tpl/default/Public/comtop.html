@@ -1,0 +1,69 @@
+<div class="topbox">
+    <div class="top">
+        <div class="logo"><a href="__APP__/company-<{$company.id}>"><img src="<{$company.youshangtu}>" /></a></div>
+        <div class="head">
+            <div class="head-b">
+            	<div class="tip1">
+                    <strong class="font-yanse1">推荐指数：</strong><img src="__PUBLIC__/company/images/star<{$company.star}>.jpg" style="vertical-align:middle" /> 
+                    <strong class="font-yanse1">会员年份：</strong><strong class="font-yanse1">第<strong class="font-yanse2"><{$company.comyear}></strong>年</strong>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+    </div>
+    <div class="nav">
+    	<ul>
+            <li id="now"><a href="__APP__/company-<{$company.id}>">首 页</a></li>
+            <li><a href="__APP__/company-jianjie-<{$company.id}>">公司简介</a></li>
+            <li><a href="__APP__/company-changjing-<{$company.id}>">公司场景</a></li>
+            <li><a href="__APP__/company-rongyu-<{$company.id}>">荣誉资质</a></li>
+            <li><a href="__APP__/company-product-<{$company.id}>">产品列表</a></li>
+            <li><a href="__APP__/company-lianxi-<{$company.id}>">联系我们</a></li>
+        </ul>
+    </div>
+    <div style="clear:both"></div>
+</div> 
+
+<div id="sw">
+  <div class="wp">
+    <div id=myjQuery>
+      <div id=myjQueryContent>
+       <script language='javascript'> 
+			linkarr = new Array();
+			picarr = new Array();
+			textarr = new Array();
+			var swf_width=952;
+			var swf_height=232;
+			//文字颜色|文字位置|文字背景颜色|文字背景透明度|按键文字颜色|按键默认颜色|按键当前颜色|自动播放时间|图片过渡效果|是否显示按钮|打开方式
+			var configtg='0xffffff|0|0x3FA61F|5|0xffffff|0xC5DDBC|0x000033|2|3|1|_blank';
+			var files = "";
+			var links = "";
+			var texts = "";
+			//这里设置调用标记
+			
+			picarr[1]  = "<{$company.banner1}>";
+			picarr[2]  = "<{$company.banner2}>";
+			
+			 
+			for(i=1;i<picarr.length;i++){
+			if(files=="") files = picarr[i];
+			else files += "|"+picarr[i];
+			}
+			for(i=1;i<linkarr.length;i++){
+			if(links=="") links = linkarr[i];
+			else links += "|"+linkarr[i];
+			}
+			for(i=1;i<textarr.length;i++){
+			if(texts=="") texts = textarr[i];
+			else texts += "|"+textarr[i];
+			}
+			document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ swf_width +'" height="'+ swf_height +'">');
+			document.write('<param name="movie" value="__PUBLIC__/images/bcastr3.swf"><param name="quality" value="high">');
+			document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+			document.write('<param name="FlashVars" value="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'">');
+			document.write('<embed src="__PUBLIC__/images/bcastr3.swf" wmode="opaque" FlashVars="bcastr_file='+files+'&bcastr_link='+links+'&bcastr_title='+texts+'& menu="false" quality="high" width="'+ swf_width +'" height="'+ swf_height +'" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>'); 
+		</script>
+      </div>
+    </div>
+  </div>
+</div>

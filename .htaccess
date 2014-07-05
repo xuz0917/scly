@@ -1,0 +1,10 @@
+RewriteEngine on
+
+RewriteCond $1 !^(index\.php|index\.html|test\.php|Public|public|Upload|Admin|User|member|news|renwu|rencai|gongqiu|guanli|huoyuan|company\-(.*)|user\.php|robots\.txt|favicon\.ico)   
+RewriteRule ^(.*)$ /index.php/Index/$1
+RewriteRule ^company-([0-9]+)$ /index.php/Company/index/id/$1
+RewriteRule ^company-jianjie-([0-9]+)$ /index.php/Company/jianjie/id/$1
+RewriteRule ^company-changjing-([0-9]+)$ /index.php/Company/changjing/id/$1
+RewriteRule ^company-rongyu-([0-9]+)$ /index.php/Company/rongyu/id/$1
+RewriteRule ^company-product-([0-9]+)$ /index.php/Company/product/id/$1
+RewriteRule ^company-lianxi-([0-9]+)$ /index.php/Company/lianxi/id/$1
