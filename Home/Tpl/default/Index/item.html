@@ -16,8 +16,10 @@
         <img src="__PUBLIC__/images/c_logo.jpg" width="160" height="79" />
     </div>
     <div class="search">
-        <input name="pname" type="text" placeholder="请输入公司名称或产品"/>
+    <form action="__APP__/search" method="get">
+        <input name="keywords" type="text" placeholder="请输入公司名称或产品"/>
         <button type="submit"> </button>
+    </form>
     </div>
 	<div style="clear:both;"></div>
 </div>
@@ -26,53 +28,33 @@
     	<div class="main_l_t">
 			<div class="main_l_title">商家信息</div>
             <div class="main_l_t_f">
-                <h1><a href="#">临沂天马灯饰</a></h1>
-                <img src="" />
-                <p>负 责 人：王经理<br />
-服务监督：15969925333<br />
-推荐指数：<img src="__PUBLIC__/images/zuanshi2.jpg" /><br />
-会员年份：第 2 年</p>
+                <h1><a href="__APP__/company-<{$company.id}>"><{$company.companyname}></a></h1>
+                <img src="<{$company.mastertu}>" />
+                <p>负 责 人：<{$company.fuzeren}><br />
+服务监督：<{$company.supervise}><br />
+推荐指数：<img src="__PUBLIC__/images/star<{$company.star}>.jpg" /><br />
+会员年份：第 <{$company.comyear}>年</p>
             </div>
         </div>
         <div class="main_l_f">
         	<div class="main_l_title">推荐产品</div>
         	<div class="main_l_f_f">
-            	<a href="#">
-                	<img src="" />
-                    精品台灯系列
+        	<volist name="plist" id="voplist">
+            	<a href="__APP__/item-<{$voplist.id}>">
+                	<img src="<{$voplist.pic1}>" /> <{$voplist.title}>
                 </a>
-            	<a href="#">
-                	<img src="" />
-                    精品台灯系列
-                </a>
-            	<a href="#">
-                	<img src="" />
-                    精品台灯系列
-                </a>
-            	<a href="#">
-                	<img src="" />
-                    精品台灯系列
-                </a>
-            	<a href="#">
-                	<img src="" />
-                    精品台灯系列
-                </a>
-            	<a href="#">
-                	<img src="" />
-                    精品台灯系列
-                </a>
+            </volist>	
             </div>
         </div>
     </div>
 	<div class="main_r">
         <div class="main_r_t">
-       	  <h1>果品果品果品果品果品果品果品果品果品果品果品果品果品果品果品果品</h1>
+       	  <h1><{$product.title}></h1>
             <!--产品展示start-->
             <div class="main_r_t_f">
                 <div class="main_r_t_f_l">
                     <div id="preview">
-                        <div class="jqzoom" id="spec-n1" onclick="window.open('http://www.lanrentuku.com/')"><img height="350"
-                        src="__PUBLIC__/images/img04.jpg" jqimg="__PUBLIC__/images/img04.jpg" width="350" />
+                        <div class="jqzoom" id="spec-n1"><img height="350" src="__PUBLIC__/images/img04.jpg" jqimg="__PUBLIC__/images/img04.jpg" width="350" />
                         </div>
                         <div id="spec-n5">
                             <div class="control" id="spec-left">
@@ -80,18 +62,32 @@
                             </div>
                             <div id="spec-list">
                                 <ul class="list-h">
-                                    <li><img src="__PUBLIC__/images/img01.jpg" /> </li>
-                                    <li><img src="__PUBLIC__/images/img02.jpg" /> </li>
-                                    <li><img src="__PUBLIC__/images/img03.jpg" /> </li>
-                                    <li><img src="__PUBLIC__/images/img04.jpg" /> </li>
-                                    <li><img src="__PUBLIC__/images/img01.jpg" /> </li>
-                                    <li><img src="__PUBLIC__/images/img02.jpg" /> </li>
-                                    <li><img src="__PUBLIC__/images/img03.jpg" /> </li>
-                                    <li><img src="__PUBLIC__/images/img04.jpg" /> </li>
-                                    <li><img src="__PUBLIC__/images/img01.jpg" /> </li>
-                                    <li><img src="__PUBLIC__/images/img02.jpg" /> </li>
-                                    <li><img src="__PUBLIC__/images/img03.jpg" /> </li>
-                                    <li><img src="__PUBLIC__/images/img04.jpg" /> </li>
+                                <PHP>
+				                    if($product['pic1']){
+				                        echo "<li><img src='{$product['pic1']}'  /></li>
+				                        ";
+				                    }
+				                    if($product['pic2']){
+				                        echo "<li><img src='{$product['pic2']}'  /></li>
+				                        ";
+				                    }
+				                    if($product['pic3']){
+				                        echo "<li><img src='{$product['pic3']}'  /></li>
+				                        ";
+				                    }
+				                    if($product['pic4']){
+				                        echo "<li><img src='{$product['pic4']}'  /></li>
+				                        ";
+				                    }
+				                    if($product['pic5']){
+				                        echo "<li><img src='{$product['pic5']}'  /></li>
+				                        ";
+				                    }
+				                    if($product['pic6']){
+				                        echo "<li><img src='{$product['pic6']}'  /></li>
+				                        ";
+				                    }
+		                          	</PHP>
                                 </ul>
                             </div>
                             <div class="control" id="spec-right">
@@ -103,15 +99,15 @@
                 </div>
                 <div class="main_r_t_f_r">
                 	<p>
-                    	<span>单价：</span><strong>2.5</strong>元<br />
-                        <span>起订：</span>10件<br />
-                        <span>供货总量：</span>1000件<br />
-                        <span>发货期限：</span>5天<br />
-                        <span>所在地：</span>山东 临沂<br />
-                        <span>有效期：</span>30天<br />
-                        <span>产地：</span>河北 高碑店<br /><br />
+                    	<span>单价：</span><strong><{$product.jiage}></strong>元<br />
+                        <span>起订：</span><{$product.qipi}>件<br />
+                        <span>供货总量：</span><{$product.zongshu}>件<br />
+                        <span>发货期限：</span><{$product.qixian}>天<br />
+                        <span>所在地：</span><{$product.suozai}><br />
+                        <span>有效期：</span><{$product.youxiao}>天<br />
+                        <span>产地：</span><{$product.chandi}><br /><br />
                     </p>
-                    <a href="#" target="_blank"><img src="__PUBLIC__/images/xunjia.jpg" /></a>
+                    <a href="__APP__/company-lianxi-<{$company.id}>" target="_blank"><img src="__PUBLIC__/images/xunjia.jpg" /></a>
                 </div>
             </div>
 <script type="text/javascript">
@@ -159,7 +155,7 @@
         </div>
     	<div class="main_r_f">
             <div class="main_r_title">产品详情</div>
-        	
+        	<div><{$product.contents}></div>
         </div>
     </div>
     <div style="clear:both"></div>
